@@ -1,0 +1,16 @@
+題目大意
+給定方程式之係數&x的值
+計算出微分後的結果
+
+想法
+step1:string存取方程式 並用stringstream轉成int
+step2:vector存取step1獲得的int(就是方程式的係數)
+step3:for迴圈計算每一項次微分的結果
+      ->係數x項次xX^(項次-1)
+
+注意
+1.stringstream ss的用法
+先將string s存入ss -> ss<<s
+再將ss中的東西丟入int n -> ss>>n
+2.微分公式
+a0*n*x^(n-1)+a1*(n-1)*x^(n-2)+...
