@@ -30,6 +30,8 @@ int main()
                     break;
                 }
             }
+            if(bl==false)
+                break;
         }
         cout<<"Case #"<<++index;
         if(bl)
