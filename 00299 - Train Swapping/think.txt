@@ -4,9 +4,10 @@
 共要交換幾次才會是由小到大的順序
 
 想法
-step:
-step:
-step:
-step:
+step1:用vector存取數列
+step2:for迴圈處理bubble sort
+(i=0~array size,j=0~n-i-1)
+step3:當前項>後項時交換,並統計次數
 
 注意
+1.vector要記得清空
