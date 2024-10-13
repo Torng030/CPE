@@ -1,8 +1,0 @@
-給定兩二進制顯示之數
-找出可整除兩數之L
-如有符合條件之L 輸出"All you need is love!"
-
-想法
-step1:將兩數轉為十進制
-step2:找出兩數之GCD
-step3:當GCD為1 代表無法找出L
