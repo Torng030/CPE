@@ -1,0 +1,14 @@
+題目大意
+給定一數 判斷其屬於not prime/prime/emirp
+emirp:給定的數字翻轉後得到之數也是質數者
+
+想法
+step1:for迴圈判斷其是否為質數
+step2:將數字轉為字串
+step3:透過reverse翻轉順序 新數存入一變數中
+step4:判斷翻轉後的數字是否為質數
+
+注意
+1.翻轉字串 -> reverse()
+2.string轉int -> stoi()
+3.int轉string -> to_string()
